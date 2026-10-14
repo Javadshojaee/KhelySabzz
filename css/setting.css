@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div.wrpper {
+  width: 100%;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../Fonts/Vazir.c353f7ef.woff2);
+}

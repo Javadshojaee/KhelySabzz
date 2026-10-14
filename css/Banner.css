@@ -1,0 +1,13 @@
+div.Banner {
+  width: 60%;
+  height: 300px;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  img {
+    width: 400px;
+  }
+}

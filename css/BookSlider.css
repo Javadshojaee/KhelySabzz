@@ -1,0 +1,63 @@
+.mySwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Amazing {
+  width: 55%;
+  height: 420px;
+  margin-top: 0px;
+}
+
+.Amazing .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border: 2px solid rgb(105, 104, 104);
+  border-radius: 10px;
+  cursor: pointer;
+  p,span {
+    font-family: Vazir;
+    z-index: 2;
+  }
+}
+
+.Amazing .swiper-slide img {
+  display: block;
+  width: 80%;
+  height: 70%;
+  object-fit: cover;
+  transition: 500ms;
+  border-radius: 10px;
+  &:hover {
+    position: absolute;
+    z-index: 5;
+    transition: 500ms;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.Spesail {
+  font-family: Vazir;
+  margin-right: 500px;
+  font-size: 20px;
+  margin-top: 50px;
+  font-weight: bold;
+}

@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>خیلی سبز</title>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="./Images/FavIcon/favicon.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="wrpper">
+      <!-- Start Header -->
+      <header>
+        <div class="Image" id="ImageDiv"></div>
+        <nav id="navUl"></nav>
+        <div class="loginAndbuy" id="loginAndbuy">
+          <svg
+            width="30px"
+            height="30px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M7.2998 5H22L20 12H8.37675M21 16H9L7 3H4M4 8H2M5 11H2M6 14H2M10 20C10 20.5523 9.55228 21 9 21C8.44772 21 8 20.5523 8 20C8 19.4477 8.44772 19 9 19C9.55228 19 10 19.4477 10 20ZM21 20C21 20.5523 20.5523 21 20 21C19.4477 21 19 20.5523 19 20C19 19.4477 19.4477 19 20 19C20.5523 19 21 19.4477 21 20Z"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </svg>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Start Swiper -->
+      <div class="Swiper-Dad">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper" id="swiper-Wrpper">
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- End Swiper -->
+
+      <!-- Start Input -->
+      <input
+        type="search"
+        name="search"
+        id="search"
+        placeholder="جستجو در خیلی سبز"
+        class="search"
+      />
+      <!-- End Input -->
+
+      <!-- Start SliderBook -->
+      <p class="Spesail">ویژه‌ها</p>
+      <div class="swiper Amazing">
+        <div class="swiper-wrapper" id="SwiperBooks"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- End SliderBook -->
+
+      <!-- Start Advertisement -->
+      <div class="Advertisement" id="Advertisement"></div>
+      <!-- End Advertisement -->
+
+      <p class="Spesail">پیشنهادات</p>
+      <!-- Start Suggestions -->
+      <div class="swiper Suggestions">
+        <div class="swiper-wrapper" id="SuggestionsSwiper"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- End Suggestions -->
+
+      <!-- ‌Start TaskBat -->
+      <div class="TaskBar" id="TaskBar"></div>
+      <!-- ‌End TaskBat -->
+
+      <!-- Start Banner -->
+      <div class="Banner" id="Banner"></div>
+      <!-- End Banner -->
+
+      <!-- Start NoteBook -->
+      <p class="Spesail">تازه‌ها</p>
+      <div class="swiper NoteBook">
+        <div class="swiper-wrapper" id="NotesBoooks"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- End NoteBook -->
+
+      <!-- Start Footer -->
+      <footer>
+        <div class="RightFooter" id="RightFooter"></div>
+        <div class="LeftFooter">
+          <div class="Top">
+            <ul>
+              <li>
+                <a href="#">خیلی سبز</a>
+              </li>
+              <li>
+                <a href="#">درباره‌ی ما</a>
+              </li>
+              <li>
+                <a href="#">تماس با ما</a>
+              </li>
+              <li>
+                <a href="#">فرصت های شغلی</a>
+              </li>
+              <li>
+                <a href="#">سولات متداول</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">خدمات مشتریان</a>
+              </li>
+              <li>
+                <a href="#">نحوه خرید</a>
+              </li>
+              <li>
+                <a href="#">قوانین و مقررات</a>
+              </li>
+              <li>
+                <a href="#">نمایدندگان فروش</a>
+              </li>
+              <li>
+                <a href="#">طرح حکمت (باقرالعلوم)</a>
+              </li>
+            </ul>
+          </div>
+          <div class="Botton" id="botton"></div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </div>
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        observer: true,
+        observeParents: true,
+        observeSlideChildren: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      var Amazing = new Swiper(".Amazing", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        observer: true,
+        observeParents: true,
+        slidesPerView: 4,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+      var Suggestions = new Swiper(".Suggestions", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        observer: true,
+        observeParents: true,
+        slidesPerView: 4,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+      var NoteBook = new Swiper(".NoteBook", {
+        slidesPerView: 3,
+        observer: true,
+        observeParents: true,
+        slidesPerView: 4,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

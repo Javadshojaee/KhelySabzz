@@ -1,0 +1,441 @@
+{
+  "Menu": [
+    {
+      "id": 1,
+      "LiMenu": "کتاب‌ها"
+    },
+    {
+      "id": 2,
+      "LiMenu": "وبلاگ"
+    },
+    {
+      "id": 3,
+      "LiMenu": "آزمون"
+    },
+    {
+      "id": 4,
+      "LiMenu": "باشگاه مشتریان"
+    },
+    {
+      "id": 5,
+      "LiMenu": "درباره‌ي ما"
+    },
+    {
+      "id": 6,
+      "LiMenu": "همکاری با ما"
+    },
+    {
+      "id": 7,
+      "LiMenu": "تماس با ما"
+    }
+  ],
+  "ImageHeader": [
+    {
+      "id": 1,
+      "SrcImgaeHeder": "./Images/HeaderImages/Header.svg",
+      "href": "./index.html"
+    }
+  ],
+  "LoginBtn": [
+    {
+      "id": 1,
+      "hrefs": "./Login.html",
+      "title": "ورود و ثبت‌نام"
+    }
+  ],
+  "ImageSlider": [
+    {
+      "id": 1,
+      "HrefSlide": "#",
+      "SrcSlider": "./Images/SwiperImages/Image1.png"
+    },
+    {
+      "id": 2,
+      "HrefSlide": "#",
+      "SrcSlider": "Images/SwiperImages/Image2.png"
+    },
+    {
+      "id": 3,
+      "HrefSlide": "#",
+      "SrcSlider": "./Images/SwiperImages/Image3.png"
+    },
+    {
+      "id": 4,
+      "HrefSlide": "#",
+      "SrcSlider": "Images/SwiperImages/Image4.png"
+    }
+  ],
+  "BookSwiper": [
+    {
+      "id": 1,
+      "SRCiMAGES": "./Images/AmazingImages/Amazing1.png",
+      "PText": "ماجرای دین و زندگی دوازدهم",
+      "SpanText": "۸۹۰,۰۰۰"
+    },
+    {
+      "id": 2,
+      "SRCiMAGES": "./Images/AmazingImages/Amazing2.png",
+      "PText": "بیست مد انگلیسی دوازدهم+دو ضمیمیه رایگان",
+      "SpanText": "۹۹۰,۰۰۰"
+    },
+    {
+      "id": 3,
+      "SRCiMAGES": "./Images/AmazingImages/Amazing3.png",
+      "PText": "بتمن تست زیست جامع جلد سوال",
+      "SpanText": "۲,۳۹۰,۰۰۰"
+    },
+    {
+      "id": 4,
+      "SRCiMAGES": "./Images/AmazingImages/Amazing4.png",
+      "PText": "بتمن تست فیزیک جامع تجربی اول : دوازدهم",
+      "SpanText": "۲,۳۹۰,۰۰۰"
+    },
+    {
+      "id": 5,
+      "SRCiMAGES": "./Images/AmazingImages/Amazing.png",
+      "PText": "ماجرا انگلیسی دوازدهم + ضمیمیه رایگان",
+      "SpanText": "۹۹۰,۰۰۰"
+    },
+    {
+      "id": 6,
+      "SRCiMAGES": "./Images/AmazingImages/Amazing5.png",
+      "PText": "کتاب بتمن تست زمین شناسی یازدهم  11",
+      "SpanText": "۹۸۰,۰۰۰"
+    },
+    {
+      "id": 7,
+      "SRCiMAGES": "./Images/AmazingImages/Amazing6.png",
+      "PText": "بتمن تست شیمی جامع جلد پاسخ + درسنامه",
+      "SpanText": "۲,۴۰۰,۰۰۰"
+    },
+    {
+      "id": 8,
+      "SRCiMAGES": "./Images/AmazingImages/Amazing7.png",
+      "PText": "بتمن تست شیمی جامع جلد سوال",
+      "SpanText": "۲,۴۰۰,۰۰۰"
+    },
+    {
+      "id": 9,
+      "SRCiMAGES": "./Images/AmazingImages/Amazing8.png",
+      "PText": "بتمن تست ریاضی تجربی جامع جلد سوال",
+      "SpanText": "۲,۱۰۰,۰۰۰"
+    },
+    {
+      "id": 10,
+      "SRCiMAGES": "./Images/AmazingImages/Amazing9.png",
+      "PText": "بتمن تست ریاضی تجربی جامع جلد پاسخ",
+      "SpanText": "۱,۴۰۰,۰۰۰"
+    }
+  ],
+  "Advertisement": [
+    {
+      "id": 1,
+      "TestSrc": "./Images/AdvertisementImages/test1.svg"
+    },
+    {
+      "id": 2,
+      "TestSrc": "./Images/AdvertisementImages/Test2.svg"
+    },
+    {
+      "id": 3,
+      "TestSrc": "./Images/AdvertisementImages/Test3.svg"
+    },
+    {
+      "id": 4,
+      "TestSrc": "./Images/AdvertisementImages/Teat4.svg"
+    },
+    {
+      "id": 5,
+      "TestSrc": "./Images/AdvertisementImages/Test5.svg"
+    },
+    {
+      "id": 6,
+      "TestSrc": "./Images/AdvertisementImages/Teat6.svg"
+    },
+    {
+      "id": 7,
+      "TestSrc": "./Images/AdvertisementImages/Test7.svg"
+    },
+    {
+      "id": 8,
+      "TestSrc": "./Images/AdvertisementImages/Test8.svg"
+    },
+    {
+      "id": 9,
+      "TestSrc": "./Images/AdvertisementImages/Test9.svg"
+    },
+    {
+      "id": 10,
+      "TestSrc": "./Images/AdvertisementImages/Test19.svg"
+    },
+    {
+      "id": 11,
+      "TestSrc": "./Images/AdvertisementImages/Test11.svg"
+    },
+    {
+      "id": 12,
+      "TestSrc": "./Images/AdvertisementImages/Test12.svg"
+    },
+    {
+      "id": 13,
+      "TestSrc": "./Images/AdvertisementImages/Test14.svg"
+    },
+    {
+      "id": 14,
+      "TestSrc": "./Images/AdvertisementImages/Test15.svg"
+    },
+    {
+      "id": 15,
+      "TestSrc": "./Images/AdvertisementImages/Test16.svg"
+    },
+    {
+      "id": 17,
+      "TestSrc": "./Images/AdvertisementImages/Test10.svg"
+    },
+    {
+      "id": 18,
+      "TestSrc": "./Images/AdvertisementImages/Test18.svg"
+    },
+    {
+      "id": 19,
+      "TestSrc": "./Images/AdvertisementImages/Test20.svg"
+    },
+    {
+      "id": 20,
+      "TestSrc": "./Images/AdvertisementImages/Test21.svg"
+    },
+    {
+      "id": 21,
+      "TestSrc": "./Images/AdvertisementImages/Test22.svg"
+    },
+    {
+      "id": 22,
+      "TestSrc": "./Images/AdvertisementImages/Test23.svg"
+    },
+    {
+      "id": 23,
+      "TestSrc": "./Images/AdvertisementImages/Test24.svg"
+    },
+    {
+      "id": 24,
+      "TestSrc": "./Images/AdvertisementImages/Test25.svg"
+    },
+    {
+      "id": 25,
+      "TestSrc": "./Images/AdvertisementImages/Test11.svg"
+    }
+  ],
+  "Suggestions": [
+    {
+      "id": 1,
+      "SuggestionsSrc": "./Images/SuggestionsImages/Img1.png",
+      "Descriptiun": "سررسید 1405 خیلی سبز طرح Calender رنگ صورتی",
+      "Price": "۲۲۵,۰۰۰",
+      "OldPrice": "۴۵۰,۰۰۰"
+    },
+    {
+      "id": 2,
+      "SuggestionsSrc": "./Images/SuggestionsImages/Img2.png",
+      "Descriptiun": "سررسید 1405 خیلی سبز طرح To Do رنگ صورتی",
+      "Price": "۲۲۵,۰۰۰",
+      "OldPrice": "۴۵۰,۰۰۰"
+    },
+    {
+      "id": 3,
+      "SuggestionsSrc": "./Images/SuggestionsImages/Img3.png",
+      "Descriptiun": "سررسید 1405 خیلی سبز طرح To Do رنگ آبی",
+      "Price": "۲۲۵,۰۰۰",
+      "OldPrice": "۴۵۰,۰۰۰"
+    },
+    {
+      "id": 4,
+      "SuggestionsSrc": "./Images/SuggestionsImages/Img4.png",
+      "Descriptiun": "سررسید 1405 خیلی سبز طرح Calender رنگ سبز",
+      "Price": "۲۲۵,۰۰۰",
+      "OldPrice": "۴۵۰,۰۰۰"
+    },
+    {
+      "id": 5,
+      "SuggestionsSrc": "./Images/SuggestionsImages/Img5.png",
+      "Descriptiun": "سررسید 1405 خیلی سبز طرح To Do رنگ زرد",
+      "Price": "۲۲۵,۰۰۰",
+      "OldPrice": "۴۵۰,۰۰۰"
+    },
+    {
+      "id": 6,
+      "SuggestionsSrc": "./Images/SuggestionsImages/Img6.png",
+      "Descriptiun": "سررسید 1405 خیلی سبز طرح 365 رنگ گلبهی",
+      "Price": "۲۲۵,۰۰۰",
+      "OldPrice": "۴۵۰,۰۰۰"
+    },
+    {
+      "id": 7,
+      "SuggestionsSrc": "./Images/SuggestionsImages/Img7.png",
+      "Descriptiun": "سررسید 1405 خیلی سبز طرح 365 رنگ بنفش",
+      "Price": "۲۲۵,۰۰۰",
+      "OldPrice": "۴۵۰,۰۰۰"
+    }
+  ],
+  "TaskBar": [
+    {
+      "id": 1,
+      "TaskText": "کنکور"
+    },
+    {
+      "id": 2,
+      "TaskText": "جامع"
+    },
+    {
+      "id": 3,
+      "TaskText": "دوازدهم"
+    },
+    {
+      "id": 4,
+      "TaskText": "پایه"
+    },
+    {
+      "id": 5,
+      "TaskText": "یازدهم"
+    },
+    {
+      "id": 6,
+      "TaskText": "دهم"
+    },
+    {
+      "id": 7,
+      "TaskText": "نهم"
+    },
+    {
+      "id": 8,
+      "TaskText": "هشتم"
+    },
+    {
+      "id": 9,
+      "TaskText": "هفتم"
+    },
+    {
+      "id": 10,
+      "TaskText": "ششم"
+    },
+    {
+      "id": 11,
+      "TaskText": "پنجم"
+    },
+    {
+      "id": 12,
+      "TaskText": "چهارم"
+    },
+    {
+      "id": 13,
+      "TaskText": "سوم"
+    },
+    {
+      "id": 14,
+      "TaskText": "دوم"
+    },
+    {
+      "id": 15,
+      "TaskText": "اول"
+    }
+  ],
+  "Banner": [
+    {
+      "id": 1,
+      "BannerSrc": "./Images/BannerImages/Banner1.jpg"
+    },
+    {
+      "id": 2,
+      "BannerSrc": "./Images/BannerImages/Banner2.jpg"
+    },
+    {
+      "id": 3,
+      "BannerSrc": "./Images/BannerImages/Banner3.jpg"
+    }
+  ],
+  "NoteBook": [
+    {
+      "id": 1,
+      "NoteSrc": "./Images/NoteBookImages/NoteBook1.png",
+      "Ntext": "تست تاریخ جامع جلد سوال و پاسخ",
+      "NotePrice": "۱,۵۹۰,۰۰۰"
+    },
+    {
+      "id": 2,
+      "NoteSrc": "./Images/NoteBookImages/NoteBook2.png",
+      "Ntext": "کتاب تست فلسفه و منطق جامع جلد سوال و پاسخ",
+      "NotePrice": "۲,۴۵۰,۰۰۰"
+    },
+    {
+      "id": 3,
+      "NoteSrc": "./Images/NoteBookImages/NoteBook3.png",
+      "Ntext": "کتاب تست جغرافیا جامع جلد سوال و پاسخ",
+      "NotePrice": "۱,۳۱۰,۰۰۰"
+    },
+    {
+      "id": 4,
+      "NoteSrc": "./Images/NoteBookImages/NoteBook4.png",
+      "Ntext": "کتاب تست روانشناسی جامع",
+      "NotePrice": "۱,۷۹۰,۰۰۰"
+    },
+    {
+      "id": 5,
+      "NoteSrc": "./Images/NoteBookImages/NoteBook5.png",
+      "Ntext": "کتاب تست روانشناسی جامع",
+      "NotePrice": "۱,۷۹۰,۰۰۰"
+    },
+    {
+      "id": 6,
+      "NoteSrc": "./Images/NoteBookImages/NoteBook6.png",
+      "Ntext": "کتاب تست جامعه شناسی جامع جلد سوال و پاسخ ",
+      "NotePrice": "۱,۹۹۰,۰۰۰"
+    },
+    {
+      "id": 7,
+      "NoteSrc": "./Images/NoteBookImages/NoteBook7.png",
+      "Ntext": "تست ریاضی و آمار جامع انسانی جلد سوال و...",
+      "NotePrice": "۱,۵۵۰,۰۰۰ "
+    }
+  ],
+  "RightFooter": [
+    {
+      "id": 1,
+      "RightSrc": "./Images/HeaderImages/Header.svg",
+      "H3Text": "درس خوندن از حالا خیلی سبزه",
+      "PFooter": "ما فکر میکنیم که انجام دادن کارهای معمولی یا معمولی انجام دادن کارها هیچ تغییری در هیچ کجای دنیا ایجاد نمیکند برای همین  به همه میگوییم فرق داشته باش و به خودمان هم میگوییم  ناشر خیلی متفاوت! ما همیشه دوست دارسم به هر چیز محصول و خدمت و روشو... از اول و دوباره نگاه کنیم و آن را متمایز و متفاوت از آنچه هست بسازیم یا ارائه کنیم دوست داریم با همه‌ی کارهایمان مخاطبانمان را تحت تأثیر قرار دهیم. آن‌ها را بخندانیم، خوشحال کنیم و تعجبشان را برانگیزیم. همیشه دوست داریم بهترین باشیم حتی اگر الان نباشیم آن‌قدر برای رسیدن به آن تلاش می‌کنیم تا به آن دست پیدا کنیم"
+    }
+  ],
+  "LeftFooter":[
+    {
+      "id":1,
+      "FootImg":"./Images/FooterImages/Foot1.svg"
+    },
+    {
+      "id":2,
+      "FootImg":"./Images/FooterImages/Foot2.svg"
+    },
+    {
+      "id":3,
+      "FootImg":"./Images/FooterImages/Foot3.svg"
+    },
+    {
+      "id":4,
+      "FootImg":"./Images/FooterImages/Foot4.svg"
+    },
+    {
+      "id":5,
+      "FootImg":"./Images/FooterImages/Foot5.svg"
+    },
+    {
+      "id":6,
+      "FootImg":"./Images/FooterImages/Foot6.svg"
+    },
+    {
+      "id":7,
+      "FootImg":"./Images/FooterImages/Foot7.svg"
+    },
+    {
+      "id":8,
+      "FootImg":"./Images/FooterImages/Foot8.svg"
+    }
+  ]
+}

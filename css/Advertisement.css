@@ -1,0 +1,11 @@
+div.Advertisement {
+  width: 60%;
+  height: 400px;
+  margin: 80px auto;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  img {
+    cursor: pointer;
+  }
+}

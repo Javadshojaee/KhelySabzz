@@ -1,0 +1,23 @@
+div.TaskBar {
+  width: 62%;
+  height: 100px;
+  margin: 30px auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  .Task {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #99dbb8;
+    font-family: Vazir;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+}

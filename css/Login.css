@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../Fonts/Vazir.c353f7ef.woff2);
+}
+
+header {
+  width: 50%;
+  height: 100px;
+  margin: 0px auto;
+  border-bottom: 2px solid rgb(167, 163, 163);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 20px;
+  span {
+    font-family: Vazir;
+  }
+}
+.Main {
+  width: 40%;
+  height: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 20px;
+  font-family: Vazir;
+  img {
+    width: 100px;
+  }
+  .log {
+    font-size: 20px;
+  }
+  p {
+    a {
+        text-decoration: none;
+    }
+  }
+  input {
+    font-family: Vazir;
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: unset;
+    outline: unset;
+    border-bottom: 2px solid lightgray;
+    transition: 500ms;
+    &:focus {
+        border-bottom: 3px solid rgb(11, 194, 194);
+        transition: 500ms;
+    }
+  }
+  .btn {
+    all:  unset;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px darkcyan;
+  }
+}
